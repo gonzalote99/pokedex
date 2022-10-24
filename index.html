@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>pokedex</title>
+</head>
+<body>
+  <main class="flex-container">
+    <h1 class="title">pokedex</h1>
+    <form class="flex-form" action="">
+    <input id="pokemon-input" type="text" required minlength="1" maxlength="30" placeholder="pokemopn">
+    <input id="btn-submit" type="button" value="Send">
+
+
+    </form>
+    <div id="card">
+     <img src="" id="poke-img">
+     <div class="card-container">
+      <p id="name"></p>
+      <p class="poke-id item-content">ID:</p>
+      <p class="items-info" id="content-id"></p>
+      <p class="poke-height item-content">height</p>
+      <p class="item-info" id="content-height"></p>
+      <p class="poke-weight item-content">weight</p>
+      <p class="item-info" id="content-weight"></p>
+      <p class="poke-type item-content">type:</p>
+      <p class="item-info" id="content-type"></p>
+
+
+
+
+
+     </div>
+
+    </div>
+    <div id="card-error">no found</div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
